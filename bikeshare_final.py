@@ -174,7 +174,7 @@ def user_stats(df):
     print('-'*40)
 
 def show_data(df, city):
-    """Asks the user whether he wants to see the first lines of data and presents these continuously if requested"""
+    """Asks the user whether he wants to see the first 5 lines of data and presents these continuously if requested"""
     lookup_options = ('yes','no')
     i = 0
     lookup = 'yes'
