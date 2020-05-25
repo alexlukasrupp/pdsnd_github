@@ -18,7 +18,7 @@ def get_filters():
     print('Hello! Let\'s explore some US bikeshare data!')
     # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     city_options = ("chicago", "new york city", "washington")
-    city = (input('Choose between Chicago, New York City and Washington data to analyse: ')).lower()
+    city = (input('Choose between Chicago, New York City and Washington bikeshare data to analyse: ')).lower()
     while city not in city_options:
         city = (input('This is not a possible option. Choose between either Chicago, New York City or Washington: ')).lower()
 
@@ -174,7 +174,7 @@ def user_stats(df):
     print('-'*40)
 
 def show_data(df, city):
-    """Asks the user whether he wants to see the first lines of data and presents these continuously if requested"""
+    """Asks the user whether he wants to see the first 5 lines of data and presents these continuously if requested"""
     lookup_options = ('yes','no')
     i = 0
     lookup = 'yes'
