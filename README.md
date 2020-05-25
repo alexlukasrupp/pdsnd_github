@@ -5,10 +5,10 @@ April 14th 2020
 Bike share project
 
 ### Description
-Describe what your project is about and what it does
+This is a learning project based on the nano degree programm by Udacity
 
 ### Files used
-Include the files used
+This project uses the csv files chicago.csv, new_york_city.csv and washington.csv
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
