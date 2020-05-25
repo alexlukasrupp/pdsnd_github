@@ -18,7 +18,7 @@ def get_filters():
     print('Hello! Let\'s explore some US bikeshare data!')
     # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     city_options = ("chicago", "new york city", "washington")
-    city = (input('Choose between Chicago, New York City and Washington data to analyse: ')).lower()
+    city = (input('Choose between Chicago, New York City and Washington bikeshare data to analyse: ')).lower()
     while city not in city_options:
         city = (input('This is not a possible option. Choose between either Chicago, New York City or Washington: ')).lower()
 
